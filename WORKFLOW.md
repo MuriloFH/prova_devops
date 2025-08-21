@@ -107,3 +107,21 @@ Cada commit deve começar com o tipo apropriado, seguido opcionalmente pelo núm
 feat(#101): implement post filtering by category
 ```
 
+## 🧾 Nomeação de Arquivos
+
+### Regra:
+> Usar **underline '_'** no lugar de espaços em nomes de arquivos (padrão **snake_case**).
+
+### Exemplo:
+- ✅ `red_square.png`
+- ✅ `user_profile_card.jsx`
+- ❌ `red square.png`
+- ❌ `UserProfileCard.jsx` (em arquivos comuns — exceto componentes React)
+- ❌ `red-square.png`
+- ❌ `User-Profile-Card.jsx`
+
+### Padrões adicionais:
+- Evitar uso de letras maiúsculas em nomes de arquivos (exceto em componentes).
+- Extensões sempre em minúsculas: `.js`, `.png`, `.svg`, etc.
+- Pastas também devem seguir este padrão.
+
