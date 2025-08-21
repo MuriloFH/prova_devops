@@ -1,0 +1,64 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #004080;
+}
+
+h2 {
+    border-bottom: 2px solid #004080;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+#lista-posts ul {
+    list-style: none;
+}
+
+#lista-posts li {
+    margin-bottom: 15px;
+}
+
+#lista-posts h3 {
+    color: #0066cc;
+}
+
+#post-detalhado img,
+#sobre img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
